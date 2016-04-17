@@ -108,9 +108,9 @@ function ipaymu_link($params) {
 	$result = ipaymu_generateurl($data);
 	if($result['status']==TRUE){
 		if($gatewaypaypalenabled)
-		$code = "<a href='".$result["rawdata"]."'><img src='https://my.ipaymu.com/images/buttons/shopcart/01.png' alt='Bayar Sekarang' title='Bayar Sekarang' ></a>";
+		$code = "<a href='".$result["rawdata"]."'><br><img src='https://my.ipaymu.com/images/buttons/shopcart/01.png' alt='Bayar Sekarang' title='Bayar Sekarang' ></a>";
 		else
-		$code = "<a href='".$result["rawdata"]."'><img src='https://my.ipaymu.com/images/buttons/shopcart/02.png' alt='Bayar Sekarang' title='Bayar Sekarang' ></a>";
+		$code = "<a href='".$result["rawdata"]."'><br><img src='https://my.ipaymu.com/images/buttons/shopcart/02.png' alt='Bayar Sekarang' title='Bayar Sekarang' ></a>";
 	}else{
 		$code = "<p>".$result['rawdata']."</p>";
 	}
