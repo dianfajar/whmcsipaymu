@@ -35,12 +35,3 @@ Website: [https://ipaymu.com](https://ipaymu.com)
 
 #License
 http://www.gnu.org/licenses/gpl.html
-
-
-#Donasi
-[Donasi 100RB](https://my.ipaymu.com/process.htm?product=1287&member=harrysudana&action=donation&send=yes)
-
-[Donasi 500RB](https://my.ipaymu.com/process.htm?product=1289&member=harrysudana&action=donation&send=yes)
-
-[Donasi SEJUTA](https://my.ipaymu.com/process.htm?product=1291&member=harrysudana&action=donation&send=yes)
-
